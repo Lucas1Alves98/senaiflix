@@ -1,36 +1,24 @@
-import React from "react";
-import { View, Text, TouchableOpacity, Image } from "react-native";
-import { Feather } from "@expo/vector-icons";
-import Style from "./style";
-import logoImg from "../../assets/logo.png";
 
-export default function Disciplinas({ navigation }) {
+export default function Cursos({ navigation }) {
   return (
     <View style={Style.container}>
       <View style={Style.header}>
-        <View style={Style.header}>
-          <Image source={logoImg} />
-        </View>        
+        <Image source={logoImg} />
       </View>
+
+      <Text style={Style.title}>Cursos</Text>
+
       <View style={Style.content}>
-        <Text style={Style.cursoNome}>Desenvolvimento de Sistemas</Text>
+        <Text style={Style.coursesName}>Desenvolvimento de Sistemas</Text>
         <TouchableOpacity
           style={Style.coursesSubjects}
-          onPress={() => navigation.navigate("Logica")}>
+          onPress={() => navigation.navigate("Disciplinas")}
+        >
           <Text style={Style.coursesSubjectsText}>
-            Lógica de programação
+            Ver disciplinas do curso
           </Text>
         </TouchableOpacity>
-
-        <TouchableOpacity
-          style={Style.coursesSubjects}
-          onPress={() => navigation.navigate("Desenvolvimento1")}>
-          <Text style={Style.coursesSubjectsText}>
-            Desenvolvimento de Sistemas 1
-          </Text>
-        </TouchableOpacity>
-
-      </View>      
+      </View>
     </View>
   );
 }

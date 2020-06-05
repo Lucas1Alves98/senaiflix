@@ -18,7 +18,7 @@
 
 | Foto                                                                                                                             | Nome                      | GitHub                                   | Likedin                                                 | E-mail                    |
 | -------------------------------------------------------------------------------------------------------------------------------- | ------------------------- | ---------------------------------------- | ------------------------------------------------------- | ------------------------- |
-| <img src="https://avatars2.githubusercontent.com/u/56545903?s=400&u=7445f50f4a7c02a76fef37d74a1f84b2bf2c7109&v=4" width="100px"> | Jefferson de Santana Eloy | [Jefferson](https://github.com/jeffeloy) | [Linkedin](https://www.linkedin.com/in/jefferson-eloy/) | contatojeloydev@gmail.com |
+| <img src="https://avatars2.githubusercontent.com/u/56545903?s=400&u=7445f50f4a7c02a76fef37d74a1f84b2bf2c7109&v=4" width="100px"> | Lucas Alves de Carvalho | [Lucas](https://github.com/Lucas1Alves98) | [Linkedin](https://www.linkedin.com/in/LucasAlves/) | lucas1alves98@gmail.com |
 
 **Tecnologias**
 
@@ -55,4 +55,4 @@ Confira a [contributing](https://github.com/jeffeloy/devflix/blob/master/CONTRIB
 **License**
 
 Lançado em 2020.
-Este projeto está sob a [License](https://github.com/jeffeloy/devflix/blob/master/LICENSE).
+Este projeto está sob a [License](https://github.com/Lucas1Alves98/senaiflix/blob/master/LICENSE).

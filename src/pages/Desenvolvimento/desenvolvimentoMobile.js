@@ -11,6 +11,9 @@ export default function DesenvolvimentoMobile({ navigation }) {
           <Image source={logoImg} />
         </View>
         <Text style={Style.title}>Desenvolvimento Mobile</Text>
+        <View style={Style.player}>
+                <WebView source={{ uri: 'https://www.youtube.com/embed/6vE0oFFSE7c'}} allowsFullscreenVideo={true} />
+            </View>      
       </View>
     </View>
   );

@@ -14,9 +14,9 @@ export default function Logica({ navigation }) {
         <Text style={Style.title}>Lógica de Programação</Text>
 
          <View style={Style.body}>
-            <View style={Style.player}>
+         <View style={Style.player}>
                 <WebView source={{ uri: 'https://www.youtube.com/embed/6vE0oFFSE7c'}} allowsFullscreenVideo={true} />
-            </View>            
+            </View>             
         </View>
 
       </View>

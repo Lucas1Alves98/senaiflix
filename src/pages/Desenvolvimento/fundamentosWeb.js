@@ -11,6 +11,9 @@ export default function Desenvolvimento1({ navigation }) {
           <Image source={logoImg} />
         </View>
         <Text style={Style.title}>Fundamentos Web</Text>
+        <View style={Style.player}>
+                <WebView source={{ uri: 'https://www.youtube.com/embed/6vE0oFFSE7c'}} allowsFullscreenVideo={true} />
+            </View>      
       </View>
     </View>
   );

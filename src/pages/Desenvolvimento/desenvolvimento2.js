@@ -11,6 +11,9 @@ export default function Desenvolvimento2({ navigation }) {
           <Image source={logoImg} />
         </View>
         <Text style={Style.title}>Desenvolvimento de Sistemas 2</Text>
+        <View style={Style.player}>
+                <WebView source={{ uri: 'https://www.youtube.com/embed/6vE0oFFSE7c'}} allowsFullscreenVideo={true} />
+            </View>      
       </View>
     </View>
   );
